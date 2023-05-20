@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "bootstrap": "bootstrap.bat || cp ./bootstrap.bat ./bootstrap.sh && chmod +x bootstrap.sh && ./bootstrap.sh",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "devDependencies": {
+    "babylonjs": "^6.4.1",
+    "babylonjs-gui": "^6.4.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
